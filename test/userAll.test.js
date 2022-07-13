@@ -6,7 +6,6 @@ const app = require('../server');
 
 beforeAll(async () => await dbHandler.connect());
 
-afterEach(async () => await dbHandler.clearDatabase());
 
 afterAll(async () => await dbHandler.closeDatabase());
 
