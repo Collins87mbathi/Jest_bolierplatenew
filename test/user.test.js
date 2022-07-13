@@ -24,7 +24,7 @@ afterAll(async () => await dbHandler.closeDatabase());
 
 
 /**
- * Creating user
+ * Creating user and its going to be awesome 
  */
 describe('add a User', () =>   {
 
