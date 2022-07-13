@@ -1,0 +1,23 @@
+{
+  "name": "Jest_bolierplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shelf/jest-mongodb": "^3.0.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.2",
+    "mongodb-memory-server": "^8.7.2",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
+}
