@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-dotenv.config();
 
-// const path = require('path');
-// require('dotenv').config({ path: path.resolve(__dirname, './.env') });
+
+
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, './.env') });
  /**
   * connect to the in-memory database.
   */
